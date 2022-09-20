@@ -34,16 +34,6 @@ DB_PASSWORD={PASSWORD}
 ## Note
 Create account on PayPal and assign your own key:
 ```
-git clone https://github.com/abby2727/paypal-integration-app.git
-cd paypal-integration-app
-composer install
-php artisan key:generate
-php artisan migrate
-php artisan optimize
-php artisan serve
-```
-
-```
 PAYPAL_MODE=sandbox
 PAYPAL_SANDBOX_CLIENT_ID=
 PAYPAL_SANDBOX_CLIENT_SECRET=
