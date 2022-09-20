@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'PayPal Integration')
+
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
@@ -44,7 +46,6 @@
 
                                         <form action="{{ route('processPaypal') }}" method="POST">
                                             @csrf
-
                                             <input type="hidden" name="amount" value="300">
                                             <button type="submit" class="btn btn-primary">
                                                 Pay with PayPal
@@ -54,8 +55,6 @@
                                 </div>
                             </div>
                         </section>
-
-
                     </div>
                 </div>
             </div>

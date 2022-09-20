@@ -6,6 +6,7 @@ use App\Http\Controllers\PaypalController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
+// Public route
 Route::get('/', [LoginController::class, 'loginPage']);
 
 Auth::routes();
