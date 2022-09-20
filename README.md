@@ -32,6 +32,15 @@ DB_USERNAME={USERNAME}
 DB_PASSWORD={PASSWORD}
 ```
 
+## Website Login Credentials:
+You may use this credential after runing db:seed (see Installation). 
+
+E-Mail Address: abby@example.com
+Password: password
+
+Or you can register your own account.
+
+
 ## Note
 Create account on PayPal and assign your own key:
 ```
