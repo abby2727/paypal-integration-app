@@ -17,6 +17,7 @@ composer install
 php artisan key:generate
 php artisan migrate
 php artisan optimize
+php artisan db:seed
 php artisan serve
 ```
 ## Before Starting
