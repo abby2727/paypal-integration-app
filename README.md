@@ -13,6 +13,7 @@ Setting up your development environment on your local machine:
 ```
 git clone https://github.com/abby2727/paypal-integration-app.git
 cd paypal-integration-app
+cp .env.example .env
 composer install
 php artisan key:generate
 php artisan migrate
