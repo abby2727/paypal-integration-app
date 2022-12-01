@@ -1,4 +1,4 @@
-<h1 align="center">Backend Developer Technical Exam</h1>
+<h1 align="center">Backend Developer -Technical Exam</h1>
 
 <p align="justify">A web app contains login and registration page with PayPal integration.</p>
 •   Author: <a href="https://abby2727.github.io/my-portfolio/"> Abdul Pangandaman </a> <br>
